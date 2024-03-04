@@ -1,6 +1,6 @@
 ---
 title: "Data Visualisation"
-author: ""
+author: "fabienne-moana"
 format:
   html:
     embed-resources: true
@@ -300,7 +300,7 @@ ggplot(data = gapminder,
                      color = country)) +
   geom_line(lwd = 1, show.legend = FALSE) + 
   facet_wrap(~continent) +
-  # scale_color_manual(values = country_colors) +
+  scale_color_manual(values = country_colors) +
   theme_minimal() 
 
 ```
